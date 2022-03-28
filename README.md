@@ -1,6 +1,12 @@
 # Teste Listra
 ### Simulador de Financiamento
 Ambiente utilizando [Laravel Sail](https://laravel.com/docs/8.x/sail#main-content)
+
+Tecnologias:
+[Laravel](https://laravel.com/)
+[Vuejs](https://vuejs.org/)
+
+
 #### Passos para funcionamento
 1. Clone este repositório 
 2. Acesse a pasta
@@ -36,3 +42,6 @@ Ambiente utilizando [Laravel Sail](https://laravel.com/docs/8.x/sail#main-conten
             "entry_value": 5000
         }
     ```
+
+### Captura da Aplicação
+<img src="./cap-app.png" />
