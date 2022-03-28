@@ -1,4 +1,4 @@
-# Teste Listra - Backend
+# Teste Listra
 ### Simulador de Financiamento
 Ambiente utilizando [Laravel Sail](https://laravel.com/docs/8.x/sail#main-content)
 #### Passos para funcionamento
