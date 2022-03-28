@@ -44,4 +44,4 @@ Tecnologias:
     ```
 
 ### Captura da Aplicação
-<img src="./cap-app.png" />
+<img src="./cap-app.PNG" />
