@@ -9,7 +9,7 @@ Tecnologias:
 
 #### Passos para funcionamento
 1. Clone este repositório 
-2. Acesse a pasta
+2. Acesse a pasta `cd teste-listra`
 3. Execute o comando abaixo para instalar as dependências:
     <br>
     ```
