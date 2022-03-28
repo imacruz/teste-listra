@@ -15,11 +15,24 @@ Ambiente utilizando [Laravel Sail](https://laravel.com/docs/8.x/sail#main-conten
     composer install --ignore-platform-reqs
     ```
     <br>
-4. Dentro no container `teste-listra-laravel.test-1` execute os seguintes comandos:
+4. Inicie o ambiente executando:
+    `./vendor/bin/sail up`
+    
+5. Dentro no container `teste-listra-laravel.test-1` execute os seguintes comandos:
     <br>
     ```
     > php artisan migrate && php artisan db:seed
     > npm install && npm run dev
     ```
 
+### API Routes
+ * Listar Veículos `GET http://localhost/api/vehicles`
 
+ * Simular Financiamento `POST http://localhost/api/simulate` 
+ Params:
+    ```
+        {
+            "vehicle_id": 12,
+            "entry_value": 5000
+        }
+    ```

@@ -28,8 +28,8 @@ class SimulateFinancingController extends Controller
 
         $vehicle = Vehicle::findOrFail($request->vehicle_id);
         
-        if($request->entry_amount/100 <= $vehicle->value)
-            return response()->json(['entry_amount' => 'Must be less than vehicle value'], 422);
+        if($request->entry_amount/100 >= $vehicle->value)
+            return response()->json(['entry_amount' => 'Must be less than vehicle value.'], 422);
 
         return response()->json([
             'installments' => [
